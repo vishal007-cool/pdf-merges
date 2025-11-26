@@ -4,7 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  //root:'docs',
   plugins: [react(), tailwindcss()],
-  base: '/ai-chat/', // <-- Add this line for GitHub Pages deployment
-}) 
+  base: '/nxtstore/', // 👈 Must be same as your GitHub repo name
+})
